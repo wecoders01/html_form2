@@ -1,0 +1,53 @@
+.main{
+   width: 600px;
+   margin: 100px auto;
+}
+
+.single-form {margin-bottom: 20px;}
+
+.single-form label, .single-form input, .single-form textarea {
+    display: block;
+    width: 100%;
+}
+
+.single-form input, .single-form textarea {
+    height: 40px;
+    padding: 0 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.single-form label {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: roboto;
+    margin-bottom: 5px;
+}
+
+.single-form textarea {
+    height: 150px;
+}
+
+.single-form input[type=submit] {
+    border: none;
+    width: auto;
+    cursor: pointer;
+    padding: 20px 50px;
+    font-size: 16px;
+    font-weight: 600;
+    height: auto;
+    display: block;
+    background-color: yellow;
+    transition: all 0.3s ease;
+}
+
+.single-form input[type=submit]:hover {
+    background: red;
+}
+.single-form span {
+   color: red;
+   font-size: 14px;
+   font-weight: normal;
+   margin-top: 5px;
+   display: block;
+}
